@@ -1,8 +1,8 @@
-# GoogleDrive Extension  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# GoogleDrive Extension
 An extension to download, upload, edit, modify and delete files from your google drive.
 
 
-## MIT License
+## MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     Copyright (c) 2022 Jewel Shikder Jony
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
