@@ -1,6 +1,8 @@
 # GoogleDrive Extension
 An extension to download, upload, edit, modify and delete files from your google drive.
 
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Drive%20logo.png"/>
+
 ## Total Functions
 Total 33 functions available on this time.
 
@@ -47,7 +49,124 @@ You can delete your uploaded file using file Id.
 <li> id: It's return the id of deleted files
 <li> isDeleted: It's return bolean result of deletion action.
 
+## Upload File
+You can upload any type of file using this block and also you can set custom name of file.
 
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Upload%20file.png"/>
+
+<li> id: It's return the id of uploaded file.
+<li> name: It's return the new name of uploaded file.
+<li> link: It's return the direct download link of uploaded file.
+<li> size: It's return the size of uploaded file.
+
+## GetDirectDownloadLink
+Using this you can get direct download link of any file using file Id.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Get%20download%20link.png"/>
+
+## Create Folder
+Using this block you can create new folder in any root folder using root folder id.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Create%20folder.png"/>
+
+<li> NewFolderId --> It's return the id of created folder.
+<li> NewFolderName -- > It's return the created folder name.
+<li> rootFolderId --> It's return the root folder id to handle user's activity.
+
+## Delete Folder
+Using this block you can delete any folder using it's id.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Delete%20folder.png"/>
+
+<li> folderId --> It's return the id of deleted folder.
+<li> isDeleted --> It's return boolean.
+
+## Get Folders
+Using this block you can get folders from your drive root folder.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Get%20folders.png"/>
+
+<li> rootFolderId --> It's return the id of root folder.
+<li> ids --> It's return the list of folders ids.
+<li> names --> It's return the list of folders names.
+<li> sizes --> It's return the list of folders sizes.
+
+## Move File
+Using this block you can move file from one folder to another folder.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Move%20file.png"/>
+
+<li> folderId --> It's return the id of folder.
+<li> fileId --> It's return the id of file.
+
+## Move Folder
+Using this block you can move your folder to another folder.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Move%20folder.png"/>
+
+<li> rootFolderId --> It's return the id of root folder.
+<li> childFolderId --> It's return the id of child folder.
+
+## Rename Folder
+Using this block you can rename your folder name.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Rename%20folder.png"/>
+
+<li> folderId --> It's return the id of folder.
+<li> name --> It's return the new name of folder.
+
+## Pick File
+To upload any file on drive you can pick that file using this blocks.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Pick%20file.png"/>
+
+<li> filePath --> It's return the path of picked file.
+<li> fileName --> It's return the name of picked file.
+<li> fileSize --> It's return the size of picked file.
+
+## Compress Image
+Using this blocks you can reduce image size before upload on drive.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Compress.png"/>
+
+<li> ouputFilePath --> It's return the path of output file.
+<li> outputFileSize --> It's return the size of output file.
+<li> outputFileName --> It's return the name of output file.
+<li> oldFilePath --> It's return the path of original file.
+<li> oldFileSize --> It's return the size of original file.
+<li> oldFileName --> It's return the name of original file.
+<li> reducedSize --> It's return the compress size
+
+## Encode & Decode
+Using this block you can protect your folder ids. Set level (1-100) and password length must be 5 or more.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Encode%20decoder.png"/>
+
+## Failed
+It rises if got any error.
+
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Failed.png"/>
+
+<li> functionName --> It's return the function name which function got the error.
+<li> error --> It's return the error string.
+
+## Extension specifications:
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/app-inventor-aix-download-icon.png"/> <a href="https://community.appinventor.mit.edu/t/paid-google-drive-extension-upload-download-modify-drive-files-5-1-0/29055">com.Jewel.GoogleDrive</a>(59.7 KB) \
+Version: 5.1.0\
+Price: $15 USD [Standard Edition - Available to use all of functions] (1400 Taka only for Bangladeshi)\
+Price: $25 USD [Premium Edition - Available to get futures updates] (2250 Taka only for Bangladeshi)\
+Last amendment: 10 Jan 2022\
+Supported builder: Kodular, Niotron, App Inventor and it's other distributions.
+
+### Contact with me ---------------
+Facebook: https://fb.com/jewelshkjony \
+Telegram: https://t.me/jewelshkjony \
+WhatsApp: https://wa.me/8801775668913 \
+Messenger: https://m.me/jewelshkjony
+
+#### Purchase this extension via ---
+TransferWise: https://wise.com/invite/ua/dulald4 \
+bKash/Nagad (Personal): +88 01775 668913
 
 <br/>
 
