@@ -152,11 +152,11 @@ It rises if got any error.
 
 ## Extension specifications:
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/app-inventor-aix-download-icon.png"/> <a href="https://community.appinventor.mit.edu/t/paid-google-drive-extension-upload-download-modify-drive-files-5-1-0/29055">com.Jewel.GoogleDrive</a>(59.7 KB) \
-Version: 5.1.0\
-Price: $15 USD [Standard Edition - Available to use all of functions] (1400 Taka only for Bangladeshi)\
-Price: $25 USD [Premium Edition - Available to get futures updates] (2250 Taka only for Bangladeshi)\
-Last amendment: 10 Jan 2022\
-Supported builder: Kodular, Niotron, App Inventor and it's other distributions.
+<b>Version:</b> 5.1.0\
+<b>Price:</b> $15 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.\
+<b>Price:</b> $25 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
+<b>Last amendment:</b> 10 Jan 2022\
+<b>Supported builder:</b> Kodular, Niotron, App Inventor and it's other distributions.
 
 ### Contact with me ---------------
 Facebook: https://fb.com/jewelshkjony \
