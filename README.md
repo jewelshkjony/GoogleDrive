@@ -158,15 +158,17 @@ It rises if got any error.
 <b>Last amendment:</b> 10 Jan 2022\
 <b>Supported builder:</b> Kodular, Niotron, App Inventor and it's other distributions.
 
-### Contact with me ---------------
-Facebook: https://fb.com/jewelshkjony \
-Telegram: https://t.me/jewelshkjony \
-WhatsApp: https://wa.me/8801775668913 \
-Messenger: https://m.me/jewelshkjony
+## 📫 How to reach me: ...
 
-#### Purchase this extension via ---
-TransferWise: https://wise.com/invite/ua/dulald4 \
-bKash/Nagad (Personal): +88 01775 668913
+<a href="https://t.me/jewelshkjony">Telegram</a> - <a href="https://wa.me/8801775668913">WhatsApp</a> - <a href="https://fb.com/jewelshkjony">Facebook</a> - <a href="https://m.me/jewelshkjony">Messenger</a>
+
+## Payment Gateway
+Use this phone number to pay me from Bangladesh.
+
+````java
++8801775668913
+````
+Bangladeshi user can send money using bkash, Nagad and Rocket. Remember accounts are personal.
 
 <br/>
 
