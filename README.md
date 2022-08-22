@@ -17,7 +17,7 @@ You need to set folder id from Block Section or from Designer Section.
 </table>
 
 <details>
-  <summary>Total Functions & Events</summary>
+  <summary><b>Total Functions & Events</b></summary>
 
 Total 13 functions and 11 events available now.
 
@@ -39,36 +39,36 @@ Using this block you can get all files from your folder.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/get-files.png"/>
 
-<li> name: It's return the name of files.
-<li> size: It's return the size of files in byte formats.
-<li> link: It's return the direct download link of files.
-<li> date: It's return the created date of files.
+<li> <b>name</b> - It's return the name of files.
+<li> <b>size</b> - It's return the size of files in byte formats.
+<li> <b>link</b> - It's return the direct download link of files.
+<li> <b>date</b> - It's return the created date of files.
 
 ## Rename File
 You can rename your file using file Id.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/rename-file.png"/>
 
-<li> id: It's return the id of given file.
-<li> name: It's return the new name of given file.
+<li> <b>id</b> - It's return the id of given file.
+<li> <b>name</b> - It's return the new name of given file.
 
 ## Delete File
 You can delete your uploaded file using file Id.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/delete-file.png"/>
 
-<li> id: It's return the id of deleted files
-<li> isDeleted: It's return bolean result of deletion action.
+<li> <b>id</b> - It's return the id of deleted files
+<li> <b>isDeleted</b> - It's return bolean result of deletion action.
 
 ## Upload File
 You can upload any type of file using this block and also you can set custom name of file.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/upload-file.png"/>
 
-<li> id: It's return the id of uploaded file.
-<li> name: It's return the new name of uploaded file.
-<li> link: It's return the direct download link of uploaded file.
-<li> size: It's return the size of uploaded file.
+<li> <b>id</b> - It's return the id of uploaded file.
+<li> <b>name</b> - It's return the new name of uploaded file.
+<li> <b>link</b> - It's return the direct download link of uploaded file.
+<li> <b>size</b> - It's return the size of uploaded file.
 
 ## GetDirectDownloadLink
 Using this you can get direct download link of any file using file Id.
@@ -80,51 +80,51 @@ Using this block you can create new folder in any root folder using root folder 
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/create-folder.png"/>
 
-<li> NewFolderId --> It's return the id of created folder.
-<li> NewFolderName -- > It's return the created folder name.
-<li> rootFolderId --> It's return the root folder id to handle user's activity.
+<li> <b>NewFolderId</b> - It's return the id of created folder.
+<li> <b>NewFolderName</b> - It's return the created folder name.
+<li> <b>rootFolderId</b> - It's return the root folder id to handle user's activity.
 
 ## Delete Folder
 Using this block you can delete any folder using it's id.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/delete-folder.png"/>
 
-<li> folderId --> It's return the id of deleted folder.
-<li> isDeleted --> It's return boolean.
+<li> <b>folderId</b> - It's return the id of deleted folder.
+<li> <b>isDeleted</b> - It's return boolean.
 
 ## Get Folders
 Using this block you can get folders from your drive root folder.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/get-folders.png"/>
 
-<li> rootFolderId --> It's return the id of root folder.
-<li> ids --> It's return the list of folders ids.
-<li> names --> It's return the list of folders names.
-<li> sizes --> It's return the list of folders sizes.
+<li> <b>rootFolderId</b> - It's return the id of root folder.
+<li> <b>ids</b> - It's return the list of folders ids.
+<li> <b>names</b> - It's return the list of folders names.
+<li> <b>sizes</b> - It's return the list of folders sizes.
 
 ## Move File
 Using this block you can move file from one folder to another folder.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/move-file.png"/>
 
-<li> folderId --> It's return the id of folder.
-<li> fileId --> It's return the id of file.
+<li> <b>folderId</b> - It's return the id of folder.
+<li> <b>fileId</b> - It's return the id of file.
 
 ## Move Folder
 Using this block you can move your folder to another folder.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/move-folder.png"/>
 
-<li> rootFolderId --> It's return the id of root folder.
-<li> childFolderId --> It's return the id of child folder.
+<li> <b>rootFolderId</b> - It's return the id of root folder.
+<li> <b>childFolderId</b> - It's return the id of child folder.
 
 ## Rename Folder
 Using this block you can rename your folder name.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/rename-folder.png"/>
 
-<li> folderId --> It's return the id of folder.
-<li> name --> It's return the new name of folder.
+<li> <b>folderId</b> - It's return the id of folder.
+<li> <b>name</b> - It's return the new name of folder.
 
 ## Encode & Decode
 Using this block you can protect your folder ids. Set level (1-100) and password length must be 5 or more.
@@ -136,11 +136,15 @@ It rises if got any error.
 
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/failed.png"/>
 
-<li> functionName --> It's return the function name which function got the error.
-<li> error --> It's return the error string.
+<li> <b>functionName</b> - It's return the function name which function got the error.
+<li> <b>error</b> - It's return the error string.
+
+## More extension
+
+<a href="https://github.com/jewelshkjony?tab=repositories">See more extensions</a>
 
 ## Extension specifications:
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/app-inventor-aix-download-icon.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive</a>(79.8 KB) \
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive</a>(79.8 KB) \
 <b>Version:</b> 5.1.2\
 <b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.\
 <b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
