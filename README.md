@@ -146,7 +146,7 @@ It rises if got any error.
 ## Extension specifications:
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive</a>(79.8 KB) \
 <b>Version:</b> 5.1.2\
-<b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.\
+<b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.</sub>\
 <b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
 <b>Last amendment:</b> 23 August 2022\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
