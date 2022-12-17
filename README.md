@@ -11,8 +11,8 @@ You need to set folder id from Block Section or from Designer Section.
 
 <table>
   <tr>
-    <td><img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/property-1.png"/></td>
-    <td><img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/property-2.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/208237735-3aa9a35d-c110-408d-8eeb-6ae513deb1c4.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/208237762-2d2e9850-d96c-49bd-ab24-f690f8d45c51.png"/></td>
   </tr>
 </table>
 
