@@ -139,6 +139,13 @@ It rises if got any error.
 <li> <b>functionName</b> - It's return the function name which function got the error.
 <li> <b>error</b> - It's return the error string.
 
+<br>
+<br>
+
+>## Implementation Guide Video **↓**
+
+[![AdmobAds](http://img.youtube.com/vi/OGeMuk5nBMQ/0.jpg)](https://www.youtube.com/watch?v=OGeMuk5nBMQ&list=PLczFHGJFYQrnnRwmvWvICveMLExbyAqsP)
+
 ## More extension
 
 <a href="https://github.com/jewelshkjony?tab=repositories">See more extensions</a>
@@ -157,6 +164,6 @@ It rises if got any error.
 
 ## 💲 Payment Methods ↓
 
-❏ <a href="https://www.xoom.com/bangladesh/send-money" target="_blank">Xoom</a> | <a href="https://wise.com/?sourceCurrency=USD&targetCurrency=BDT&sourceAmount=20" target="_blank">Wise</a> | <a href="https://www.skrill.com/en/">Skrill</a> | <a href="https://www.binance.me/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_0068YL77KV" target="_blank">Binance</a> | <a href="https://play.google.com/store/apps/details?id=com.jewelshkjony.pay2me">Pay2Me</a> (Global)
+❏ <a href="https://www.xoom.com/bangladesh/send-money" target="_blank">Xoom</a> | <a href="https://wise.com/?sourceCurrency=USD&targetCurrency=BDT&sourceAmount=20" target="_blank">Wise</a> | <a href="https://www.skrill.com/en/">Skrill</a> | <a href="https://www.binance.me/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_0068YL77KV" target="_blank">Binance</a> | <a href="https://play.google.com/store/apps/details?id=com.jewelshkjony.pay2me">Pay2Me</a> | <b>Paypal</b> (Global)
 
 ❏ <a href="https://bka.sh/next?c=signup&uuid=C1CC9JVT1" target="_blank">bkash</a> | <a href="https://play.google.com/store/apps/details?id=com.konasl.nagad">Nagad</a> | <a href="https://play.google.com/store/apps/details?id=com.dbbl.mbs.apps.main">Rocket</a> (Bangladesh)
