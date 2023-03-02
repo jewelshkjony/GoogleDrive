@@ -1,5 +1,5 @@
 # Google Drive Extension
-An extension to download, upload, edit, modify and delete files from your google drive.
+An extension to download, upload, edit, modify and delete files from your google drive.\
 Support all Android version. (Tested with Android 11, 12, 13)
 * **
 
