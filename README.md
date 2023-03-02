@@ -1,162 +1,260 @@
-# GoogleDrive Extension
+# Google Drive Extension
 An extension to download, upload, edit, modify and delete files from your google drive.
+Support all Android version. (Tested with Android 11, 12, 13)
+* **
 
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Drive%20logo.png"/>
+![image](https://user-images.githubusercontent.com/75406851/222394514-601f9f67-7429-4a7d-8e88-1a14fec421da.png)
 
-## Extension Properties
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/aix.png"/>
-
+## 🧾 Extension Properties
 You need to set folder id from Block Section or from Designer Section.
 
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/75406851/208237735-3aa9a35d-c110-408d-8eeb-6ae513deb1c4.png"/></td>
-    <td><img src="https://user-images.githubusercontent.com/75406851/208237762-2d2e9850-d96c-49bd-ab24-f690f8d45c51.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/222394602-d8528ad0-efc3-4611-b627-1ed8824e5cbc.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/222394661-5c912009-707f-4875-b146-97eb1186680e.png"></td>
   </tr>
 </table>
 
-<details>
-  <summary><b>Total Functions & Events</b></summary>
+<br>
 
-Total 13 functions and 11 events available now.
+<details>
+  <summary><b> ⚠️ Requirements</b></summary>
+Share your folder access with anyone on internet. If you want to upload or write files from extension then you need to give editor access. Otherwise you can give viewer access.
+
+![image](https://user-images.githubusercontent.com/75406851/222394780-e8703a09-1d49-468b-9ee8-644831211c56.png)
+
+</details>
+
+## 📂 Upload File
+Using this block you can upload any file from storage.
+
+![image](https://user-images.githubusercontent.com/75406851/222394849-f23daaf7-df24-46e6-8049-883294d30e49.png)
+
+`fileType` - Set specific file type to pick file from storage.
+
+![image](https://user-images.githubusercontent.com/75406851/222394892-ac228eea-fbd9-48d9-a101-ac5958b9cbae.png)
+
+![image](https://user-images.githubusercontent.com/75406851/222394952-0bf75e35-963e-4eec-a077-81755f5275c8.png)
+
+`fileId` - It's return the id of uploaded file.\
+`file Name` - It's return the name of uploaded file.\
+`fileUrl` - It's return the url of uploaded file.\
+`file Size` - It's return the size of uploaded file.
+
+## 📂 Upload Multiple Files
+Using this block you can upload multiple files in single request.
+
+![image](https://user-images.githubusercontent.com/75406851/222395016-ee000614-d915-4905-8ff0-5f81714cd08e.png)
+
+`fileType` - Set specific file type to pick file from storage.
+
+![image](https://user-images.githubusercontent.com/75406851/222395035-24f2a367-b0d7-4c5c-8a56-3c505480c873.png)
+
+![image](https://user-images.githubusercontent.com/75406851/222395064-d0e8a53f-8829-4ef0-aa2f-187945226b77.png)
+
+`fileIds` - It's return the ids of uploaded files as list.\
+`fileNames` - It's return the names of uploaded files as list.\
+`file Sizes` - It's return the sizes of uploaded files as list.\
+`fileUrls` - It's return the urls of uploaded files as list.
+
+## ✖️ File Picker Canceled
+It's triggered when user click on back press to cancel picking file.
+
+![image](https://user-images.githubusercontent.com/75406851/222395140-beb1bd61-5a67-45a6-ac65-b2ce905f8995.png)
+
+`function Name` - It's return the name of function.
+
+## 🔗 Upload File By Url
+Using this block you can upload file from internet by using file url.
+
+![image](https://user-images.githubusercontent.com/75406851/222395175-af8970eb-4021-47f1-ae1c-687f7de23223.png)
+
+`fileUrl` - Enter file url to upload it into drive folder.
+
+![image](https://user-images.githubusercontent.com/75406851/222395200-668c648a-da6f-46ba-8333-ee7a04545cff.png)
+
+`fileId` - It's return the id of uploaded file.\
+`file Name` - It's return the name of uploaded file.\
+`fileUrl` - It's return the url of uploaded file.\
+`file Size` - It's return the size of uploaded file.
+
+## 🔗 Upload Multiple Files By Url
+Using this block you can upload multiple files from internet in single request.
+
+![image](https://user-images.githubusercontent.com/75406851/222395261-43be8b13-9691-4257-a51d-348beb5d4c8b.png)
+
+`fileUrls` - Enter file urls as list.
+
+![image](https://user-images.githubusercontent.com/75406851/222395278-d26866d7-6dd8-4d21-bba7-5e31817e039a.png)
+
+`fileIds` - It's return the ids of uploaded files as list.\
+`fileNames` - It's return the names of uploaded files as list.\
+`file Sizes` - It's return the sizes of uploaded files as list.\
+`fileUrls` - It's return the urls of uploaded files as list.
+
+## 🔁 Update File
+Using this block you can modify a file which already uploaded into your drive.
+
+![image](https://user-images.githubusercontent.com/75406851/222395356-04c76cfd-746b-4518-b8a7-421e3b6f8429.png)
+
+`fileId` - Enter that file id which file you want to update.\
+`fileType` - Set specific file type to pick file from storage.
+
+![image](https://user-images.githubusercontent.com/75406851/222395385-ad926014-5dec-4eaa-9df5-7aabeaccdb3d.png)
+
+![image](https://user-images.githubusercontent.com/75406851/222395418-82c2c185-36ef-47c8-9052-5fd6f4208e6d.png)
+
+`fileId` - It's return the updated file id.
+
+## ⬇️ Get Files
+Using this block you can get all files from your folder.
+
+![image](https://user-images.githubusercontent.com/75406851/222395489-7999b923-d791-45d2-af1f-77768c04e09f.png)
+
+![image](https://user-images.githubusercontent.com/75406851/222395514-3db856e8-4933-4759-ab6b-1573775a5139.png)
+
+`fileNames` - It's return the names of files as list.\
+`fileSizes` - It's return the sizes of files in byte formats as list.\
+`fileUrls` - It's return the download links of files as list.\
+`lastUpdateDates` - It's return the last update dates of files as list.\
+`fileIds` - It's return the ids of files as list.
+
+## ✂️ Delete File
+You can delete your uploaded file using file Id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395582-b1d01ba1-b057-4443-95b1-8ca3fc2027dd.png)
+
+`fileId` - Enter file id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395617-44b86dee-912f-4be4-b5ff-af4265eeae29.png)
+
+`fileId` - It's return the id of deleted file.\
+`isDeleted` - It's return bolean result of deletion action.
+
+## ✍️ Rename File
+You can rename your file using file Id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395725-263a8bb3-b50a-4c25-bb0a-cd3bc49be592.png)
+
+`fileId` - Enter file id.\
+`new Name` - Enter new name.
+
+![image](https://user-images.githubusercontent.com/75406851/222395764-26469ef0-e2fc-432b-8afc-3f4eeb11f897.png)
+
+`fileId` - It's return the file id.\
+`file Name` - It's return the file name.
+
+## 🔗 GetDirectDownloadLink
+Using this you can get direct download link of any file using file Id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395815-98c09888-e572-4dd1-804d-2018d33bb08f.png)
+
+`fileId` - Enter file id.
+
+## 📁 Create Folder
+Using this block you can create new folder in any root folder using root folder id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395869-ecfc2771-a3f9-49a1-aeb0-6554314cab2c.png)
+
+`rootFolderId` - Enter root folder id.\
+`newFolderName` - Enter new folder name.
+
+![image](https://user-images.githubusercontent.com/75406851/222395886-ae8eeedc-62d3-4643-93c0-4fb818907144.png)
+
+`newFolderId` - It's return the id of created folder.\
+`newFolderName` - It's return the created folder name.\
+`rootFolderId` - It's return the root folder id to handle user's activity.
+
+## ✂️ Delete Folder
+Using this block you can delete any folder using it's id.
+
+![image](https://user-images.githubusercontent.com/75406851/222395987-a3d82c50-9a52-4369-ae19-e6d9d8476a67.png)
+
+`folderId` - Enter folder id.
+
+![image](https://user-images.githubusercontent.com/75406851/222396015-dec529a9-ac1a-428f-9ea3-5b0039972f2e.png)
+
+`folderId` - It's return the id of deleted folder.\
+`isDeleted` - It's return boolean.
+
+## ⬇️ Get Folders
+Using this block you can get folders from your drive root folder.
+
+![image](https://user-images.githubusercontent.com/75406851/222396058-14a33a20-ce55-4cc8-803b-4db57ee039a3.png)
+
+`rootFolderId` - Enter root folder id.
+
+![image](https://user-images.githubusercontent.com/75406851/222396086-0c5b7c59-ccb5-4cae-ba10-53e30bfc6aa1.png)
+
+`rootFolderId`> - It's return the id of root folder.\
+`folderIds` - It's return the list of folders ids.\
+`folderNames` - It's return the list of folders names.\
+`folderSizes` - It's return the list of folders sizes.
+
+## ✍️ Rename Folder
+Using this block you can rename your folder name.
+
+![image](https://user-images.githubusercontent.com/75406851/222396168-f6bfb401-f588-444a-9678-1dd141b1d791.png)
+
+`folderId` - Enter folder id.\
+`new Name` - Enter new name.
+
+![image](https://user-images.githubusercontent.com/75406851/222396191-37aeede3-d262-4e9a-8d74-baf57e707cc9.png)
+
+`folderId` - It's return the id of folder.\
+`folderName` - It's return the new name of folder.
+
+## 🗃️ Move File
+Using this block you can move file from one folder to another folder.
+
+![image](https://user-images.githubusercontent.com/75406851/222396234-8d18c10f-a225-42ec-8d15-84fc8da46695.png)
+
+`folderId` - Enter folder id where you want to move your file.\
+`fileId` - Enter file id.
+
+![image](https://user-images.githubusercontent.com/75406851/222396258-8de72ba6-9f9f-43bd-bfdc-7dc9021557b7.png)
+
+`folderId` - It's return the id of folder.\
+`fileId` - It's return the id of file.
+
+## 📁 Move Folder
+Using this block you can move your folder to another folder.
+
+![image](https://user-images.githubusercontent.com/75406851/222396346-5f069124-fc9e-49f2-9d33-a91f4b5352e4.png)
+
+`rootFolderId` - Enter root folder id.\
+`childFolderId` - Enter child folder id.
+
+![image](https://user-images.githubusercontent.com/75406851/222396386-871e6e4b-d00c-4e56-9b34-78f15ef20a67.png)
+
+`rootFolderId` - It's return the id of root folder.\
+`childFolderId` - It's return the id of child folder.
+
+## 🔐 Encode & Decode
+Using this block you can protect your folder ids. Set level (1-100) and password length must be 5 or more.
 
 <table>
   <tr>
-    <td><img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/all-methods.png"/></td>
-    <td><img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/all-events.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/222396452-8fdbdf51-a5b5-4b05-a8f5-c93b4db770d3.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/75406851/222396477-0d1d2f40-0aca-457c-828f-1c2fec921b85.png"></td>
   </tr>
 </table>
-</details>
 
-## Requirements
-Share your folder access with anyone on internet. If you want to upload or write files from extension then you need to give editor access. Otherwise you can give viewer access.
+## ❌ Failed
+It rises if got any error. Check function name to understand that error is from where and read error message to understand the reason.
 
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/Requirements.png"/>
+![image](https://user-images.githubusercontent.com/75406851/222396553-a45e5a37-bc3d-458f-8712-e0e09ec048a7.png)
 
-## Get Files
-Using this block you can get all files from your folder.
+`function Name` - It's return the function name which function got the error.\
+`error Message` - It's return the error message.
 
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/get-files.png"/>
-
-<li> <b>name</b> - It's return the name of files.
-<li> <b>size</b> - It's return the size of files in byte formats.
-<li> <b>link</b> - It's return the direct download link of files.
-<li> <b>date</b> - It's return the created date of files.
-
-## Rename File
-You can rename your file using file Id.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/rename-file.png"/>
-
-<li> <b>id</b> - It's return the id of given file.
-<li> <b>name</b> - It's return the new name of given file.
-
-## Delete File
-You can delete your uploaded file using file Id.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/delete-file.png"/>
-
-<li> <b>id</b> - It's return the id of deleted files
-<li> <b>isDeleted</b> - It's return bolean result of deletion action.
-
-## Upload File
-You can upload any type of file using this block and also you can set custom name of file.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/upload-file.png"/>
-
-<li> <b>id</b> - It's return the id of uploaded file.
-<li> <b>name</b> - It's return the new name of uploaded file.
-<li> <b>link</b> - It's return the direct download link of uploaded file.
-<li> <b>size</b> - It's return the size of uploaded file.
-
-## GetDirectDownloadLink
-Using this you can get direct download link of any file using file Id.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/get-direct-download-link.png"/>
-
-## Create Folder
-Using this block you can create new folder in any root folder using root folder id.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/create-folder.png"/>
-
-<li> <b>NewFolderId</b> - It's return the id of created folder.
-<li> <b>NewFolderName</b> - It's return the created folder name.
-<li> <b>rootFolderId</b> - It's return the root folder id to handle user's activity.
-
-## Delete Folder
-Using this block you can delete any folder using it's id.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/delete-folder.png"/>
-
-<li> <b>folderId</b> - It's return the id of deleted folder.
-<li> <b>isDeleted</b> - It's return boolean.
-
-## Get Folders
-Using this block you can get folders from your drive root folder.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/get-folders.png"/>
-
-<li> <b>rootFolderId</b> - It's return the id of root folder.
-<li> <b>ids</b> - It's return the list of folders ids.
-<li> <b>names</b> - It's return the list of folders names.
-<li> <b>sizes</b> - It's return the list of folders sizes.
-
-## Move File
-Using this block you can move file from one folder to another folder.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/move-file.png"/>
-
-<li> <b>folderId</b> - It's return the id of folder.
-<li> <b>fileId</b> - It's return the id of file.
-
-## Move Folder
-Using this block you can move your folder to another folder.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/move-folder.png"/>
-
-<li> <b>rootFolderId</b> - It's return the id of root folder.
-<li> <b>childFolderId</b> - It's return the id of child folder.
-
-## Rename Folder
-Using this block you can rename your folder name.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/rename-folder.png"/>
-
-<li> <b>folderId</b> - It's return the id of folder.
-<li> <b>name</b> - It's return the new name of folder.
-
-## Encode & Decode
-Using this block you can protect your folder ids. Set level (1-100) and password length must be 5 or more.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/encode-decode.png"/>
-
-## Failed
-It rises if got any error.
-
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/failed.png"/>
-
-<li> <b>functionName</b> - It's return the function name which function got the error.
-<li> <b>error</b> - It's return the error string.
-
-<br>
-<br>
-
->## Implementation Guide Video **↓**
-
-[![AdmobAds](http://img.youtube.com/vi/OGeMuk5nBMQ/0.jpg)](https://www.youtube.com/watch?v=OGeMuk5nBMQ&list=PLczFHGJFYQrnnRwmvWvICveMLExbyAqsP)
-
-## More extension
-
-<a href="https://github.com/jewelshkjony?tab=repositories">See more extensions</a>
-
-## Extension specifications:
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (50.9 KB) \
-<b>Version:</b> 5.2.4\
+## 🗒️Extension specifications:
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (80.8 KB) \
+<b>Version:</b> 6.0.0\
 <b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.</sub>\
 <b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
 <b>Price:</b> $30 USD (Custom Edition) - <sub>More secure and more faster. Also you can order me to customize this extension for your need.</sub>\
-<b>Last amendment:</b> 05 October 2022\
+<b>Last amendment:</b> 02 March 2023\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
 
 ## 📫 How to reach me -
