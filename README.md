@@ -1,6 +1,6 @@
 # Google Drive Extension
 An extension to download, upload, edit, modify and delete files from your google drive.\
-Support all Android version. (Tested with Android 11, 12, 13)
+Support all Android version. (Tested with Android 10, 11, 12, 13)
 * **
 
 ![image](https://user-images.githubusercontent.com/75406851/222394514-601f9f67-7429-4a7d-8e88-1a14fec421da.png)
@@ -63,6 +63,27 @@ It's triggered when user click on back press to cancel picking file.
 ![image](https://user-images.githubusercontent.com/75406851/222395140-beb1bd61-5a67-45a6-ac65-b2ce905f8995.png)
 
 `function Name` - It's return the name of function.
+
+## 📸 Capture Photo To Upload
+Using this blocks you can take photo using phone camera to upload it into Drive folder. Also you can compress photo before uploading.
+
+![image](https://user-images.githubusercontent.com/75406851/224277961-5dffdbd6-93bb-49e0-83eb-6164acf9b4d3.png)
+
+`quality` - Enter quality amount as integer from 0 to 100.
+
+![image](https://user-images.githubusercontent.com/75406851/224278029-38fc1325-6418-426d-97dc-ffbba72142f9.png)
+
+`fileId` - It’s return the id of uploaded file.\
+`file Name` - It’s return the name of uploaded file.\
+`fileUrl` - It’s return the url of uploaded file.\
+`file Size` - It’s return the size of uploaded file.
+
+## ✖️ Photo Capture Canceled
+It’s rises when user cancel photo capturing or click on back press.
+
+![image](https://user-images.githubusercontent.com/75406851/224278368-a5999747-d171-4913-80bb-bab4369253bd.png)
+
+`function Name` - It’s return the name of function.
 
 ## 🔗 Upload File By Url
 Using this block you can upload file from internet by using file url.
@@ -249,12 +270,12 @@ It rises if got any error. Check function name to understand that error is from 
 `error Message` - It's return the error message.
 
 ## 🗒️Extension specifications:
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (80.8 KB) \
-<b>Version:</b> 6.0.0\
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (91.4 KB) \
+<b>Version:</b> 7.0.0\
 <b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.</sub>\
 <b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
 <b>Price:</b> $30 USD (Custom Edition) - <sub>More secure and more faster. Also you can order me to customize this extension for your need.</sub>\
-<b>Last amendment:</b> 02 March 2023\
+<b>Last amendment:</b> 10 March 2023\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
 
 ## 📫 How to reach me -
