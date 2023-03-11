@@ -269,6 +269,14 @@ It rises if got any error. Check function name to understand that error is from 
 `function Name` - It's return the function name which function got the error.\
 `error Message` - It's return the error message.
 
+## 📝 Release Notes ↷
+<li><b>7.0.0:</b>  Added <ins>CapturePhotoToUpload</ins> function. Now you can take photo using camera to upload taken image into Drive folder. Also you can compress image size before upload. <sub>(I'll charge small amount to receive this update for paid users.)</sub>
+<li><b>6.0.0:</b> Added <ins>UploadMultipleFiles</ins> function. Now you can upload multiple files in single request.
+<br>Added <ins>UploadFileByUrl</ins> function. Now you can upload file into drive from internet.
+<br>Added <ins>UploadMultipleFilesByUrl</ins> function. Now you can upload multiple files from internet in a single request.
+<br>Added <ins>UpdateFile</ins> function. Now you can update that file which already exist into your drive.
+<li><b>5.9.1:</b> Update for Support Android 11+ devices.
+
 ## 🗒️Extension specifications:
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (91.4 KB) \
 <b>Version:</b> 7.0.0\
