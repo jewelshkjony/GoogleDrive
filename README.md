@@ -105,6 +105,20 @@ It’s rises when user cancel recording video or click on back press.
 
 ![image](https://user-images.githubusercontent.com/75406851/224535811-2624933e-508b-4f4c-b272-ac691eb02658.png)
 
+## 🗃️ Upload From Asset
+Using this blocks you can upload any file from your asset folder.
+
+![image](https://user-images.githubusercontent.com/75406851/225534332-bc403b44-b4cd-409a-8826-2a954c83738b.png)
+
+`file Name` - Enter file name from asset folder.
+
+![image](https://user-images.githubusercontent.com/75406851/225534392-33331409-2187-41a4-b9d1-a53c1a85c7eb.png)
+
+`fileId` - It’s return the id of uploaded file.\
+`file Name` - It’s return the name of uploaded file.\
+`fileUrl` - It’s return the url of uploaded file.\
+`file Size` - It’s return the size of uploaded file.
+
 ## 🔗 Upload File By Url
 Using this block you can upload file from internet by using file url.
 
@@ -290,6 +304,7 @@ It rises if got any error. Check function name to understand that error is from 
 `error Message` - It's return the error message.
 
 ## 📝 Release Notes ↷
+<li><b>8.1.0:</b> Added <ins>UploadFromAsset</ins> function. Now you can upload any file from your asset folder.
 <li><b>8.0.0:</b> Added <ins>RecordVideoToUpload</ins> function. Now you can record video using camera to upload recorded video into Drive folder. Also you can set video quality to record video before upload. <sub>(I'll charge small amount to receive this update for paid users.)</sub>
 <li><b>7.0.0:</b>  Added <ins>CapturePhotoToUpload</ins> function. Now you can take photo using camera to upload taken image into Drive folder. Also you can compress image size before upload. <sub>(I'll charge small amount to receive this update for paid users.)</sub>
 <li><b>6.0.0:</b> Added <ins>UploadMultipleFiles</ins> function. Now you can upload multiple files in single request.
@@ -299,12 +314,12 @@ It rises if got any error. Check function name to understand that error is from 
 <li><b>5.9.1:</b> Update for Support Android 11+ devices.
 
 ## 🗒️Extension specifications:
-<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (96.6 KB) \
-<b>Version:</b> 8.0.0\
+<img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (98.9 KB) \
+<b>Version:</b> 8.1.0\
 <b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.</sub>\
 <b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
 <b>Price:</b> $30 USD (Custom Edition) - <sub>More secure and more faster. Also you can order me to customize this extension for your need.</sub>\
-<b>Last amendment:</b> 12 March 2023\
+<b>Last amendment:</b> 16 March 2023\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
 
 ## 📫 How to reach me -
