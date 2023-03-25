@@ -316,8 +316,8 @@ It rises if got any error. Check function name to understand that error is from 
 ## 🗒️Extension specifications:
 <img src="https://github.com/jewelshkjony/GoogleDrive/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.googledrive.aix</a> (98.9 KB) \
 <b>Version:</b> 8.1.0\
-<b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again. Also It has validity limitation.</sub>\
-<b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free. No limitation remain.</sub>\
+<b>Price:</b> $10 USD (Standard Edition) - <sub>You'll not get next updates are free. You've to pay again.</sub>\
+<b>Price:</b> $20 USD (Premium Edition) - <sub>Available to get futures updates for free.</sub>\
 <b>Price:</b> $30 USD (Custom Edition) - <sub>More secure and more faster. Also you can order me to customize this extension for your need.</sub>\
 <b>Last amendment:</b> 16 March 2023\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
